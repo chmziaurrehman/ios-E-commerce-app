@@ -1,0 +1,399 @@
+/* 
+  Localizable.strings
+  Qareeb
+
+  Created by M Zia Ur Rehman Ch. on 19/03/2019.
+  Copyright © 2019 Qareeb. All rights reserved.
+*/
+
+
+
+"app_update"="Please update the app to continue using the feature.";
+
+
+"Please_select_your_city"="يرجى تحديد مدينتك، أو الانتقال إلى الخريطة";
+"change_language"="تغيير اللغة";
+"tryAgain"="حاول مرة أخرى";
+"networkError"=" لا يوجد اتصال بالشبكة. تأكد من اتصالك بشبكة الواي فاي أو شبكة الجوال وحاول مجدداً";
+
+
+
+"ChangePassword"="تغيير كلمة السر";
+"All_Prices_are_inclusive_vat"="جميع الأسعار شاملة ضريبة القيمة المضافة بنسبة 5٪";
+"search"="SEARCH";
+"change_Store"="CHANGE STORE";
+"Min_Limit"="الحد الأدنى:";
+"Next_Delivery"="التوصيل التالي";
+"No_Delivery_Available"="لا يوجد توصيل متاح";
+
+"All"="All";
+"offerss"="العروض";
+"special_offers"="Special offers";
+
+
+"view_more"="VIEW MORE";
+
+"Total"="Total";
+"Find_your_thing"="Find your thing…..";
+
+
+"Good_news"="Good news";
+"Timeout_error"="خطأ متعلق بانتهاء المهلة!";
+"Connection_error"=" خطأ في الإتصال!";
+"Parse_error"="خطأ تحليلي!";
+"Auth_Failure_error"=" خطأ دخول!";
+"Server_error"="!خطأ في الخادم";
+"Network_error"="خطأ في الشبكة!";
+
+
+"OK_THANKS"="OK THANKS!";
+
+
+"Sign_up_with"="سجل مع";
+"Select_Location"="SELECT LOCATION";
+"Select_your_location"="Select your location";
+"change"="CHANGE";
+"get_delevired_des"="سوف يقوم موظفي متجرنا المتميزين والمدربين خصيصاً بتوصيل طلبك حسب أوقات التسليم المحددة";
+"get_deleviredd"="تم تسليمها";
+"place_an_order_des"="تصفح جميع الفئات لإضافة منتجات في سلة  التسوق ، والمتابعة لتأكيد طلبك.";
+"place_an_orderrr"="وضع طلب الشراء";
+"select_store_des"="اختر متجرك المفضل من قائمة واسعة";
+"set_your_location"="حدد موقعك";
+"location_des"="لعرض أقرب متجر ، حدد موقعك يدوياً أو تلقائياً بالنقر على تحديد موقعي.";
+"get_started_now"="إبدأ الآن";
+"next"="التالى";
+"skip"="تخطى";
+"start"="بدء";
+
+
+"PasswordOutOfRange"="يجب أن تتكون كلمة المرور من أربعة إلى عشرين حرفًا!";
+"store_open"="مفتوح";
+"store_close"="مغلق";
+"CurrentPassword"="كلمة المرور الحالية";
+"NewPassword"="كلمة السر الجديدة";
+"RetypePassword"="أعد إدخال كلمة السر";
+"OldPassworddoesnotmatch"="كلمة المرور القديمة غير متطابقة!";
+"PasswordChangedSuccessfully"="تم تغيير الرقم السري بنجاح";
+"passwordMisMatched"="عدم تطابق كلمة المرور";
+"app_name"="قريب";
+"title_activity_main_drawer"="MainDrawer";
+"navigation_drawer_open"="فتح ساحب التنقل";
+"navigation_drawer_close"="غلق ساحب التنقل";
+"action_settings"="إعدادات";
+
+
+"title_home"="الصفحة الرئيسية";
+"title_dashboard"="الواجهة";
+"title_notifications"="إشعارات";
+
+"Please_Select_delivery_slot"="Delivery Slots";
+
+"message_sent"="تم إرسال الرسالة بنجاح";
+"Message_sent_to_your"="تم إرسال الرسالة إلى رقم هاتفك المحمول";
+"please_ENter"=" هنا  يرجى إدخال رمز";
+
+"yourAreShoppingFrom" = "You’re shopping from ";
+
+//main drawer
+
+"are_you_sure_you_want_to_logout"="هل أنت متأكد أنك تريد تسجيل الخروج؟";
+"Confirm_log_out"="تأكيد تسجيل الخروج:";
+
+"Home"="Home";
+"Offers"="Special Offers";
+"OrderHistory"="Order History";
+"MyCart"="My Cart";
+"MyLists"="Wishlist";
+"StoreCredit"="Store Credit";
+"Share"="Share";
+"Language"="العربية";
+"ContactUs"="Contact Us";
+
+"Recipe"="وصفات";
+"MyReport"="تقريري";
+"Settings"="إعدادات";
+"Support"="الدعم";
+
+"Logout"=" LOG OUT ";
+"Login"="تسجيل دخول";
+//"Language"="اللغة";
+"Miscellaneous"="متنوعات";
+"AboutUs"="معلومات عنا";
+//"ContactUs"="اتصل بنا";
+"TermsConditions"="الأحكام والشروط";
+"PrivacyPolicy"="سياسة الخصوصية";
+
+"EditProfile"="تعديل الملف الشخصي";
+"Profile"="Profile";
+"Wishlist"="Wish List";
+"Product"="المنتج";
+"Categories"="الاقسام";
+"Products"="المنتجات";
+"Exit"="خروج";
+"Are_you_want_to_exit"="هل تريد الخروج؟";
+"YES"="YES";
+"NO"="NO";
+"Your_Cart_is_empty"="عربتك فارغة";
+"Please_enter_tosearch"=" إدخال للبحث";
+"Please_connect_to_working_internet_connection"="يرجى الاتصال بالإنترنت";
+"Select_Delivery_Time"="Select Delivery Time";
+"Save_Delivery_Time"="Save Delivery Time";
+
+//Login page
+
+"please_login_first"="Please Login First";
+"Email"= " Email ";
+"password"= " Password ";
+"LOGIN"= " LOG IN ";
+"ForgotPassword"= "Forgot password";
+"And"="OR";
+"Signup"="SIGN UP";
+"Login_with"="LOGIN WITH";
+
+"Terms"="الشروط";
+
+"order_placed"="ORDER PLACED";
+"By_signing_up_you_are_agree_to_our"="By Signing up, you agree to our Terms and Privacy Policy  ";
+
+"has_been_placed"="has been placed.";
+"your_order"="Your order ";
+
+"Please_enter_email_address"="الرجاء إدخال عنوان البريد الإلكتروني";
+"Something_went_wrong"="Something went wrong";
+"New_Password_has_been_sent_to_your_email_address"="تم إرسال كلمة مرور جديدة إلى عنوان بريدك الإلكتروني.";
+"The_EMail_Address_was_not_found"="لم يتم العثور على عنوان البريد الإلكتروني في سجلاتنا، يرجى المحاولة مرة أخرى!";
+"Please_fill_the_fields_to_login"="يرجى ملء الحقول لتسجيل الدخول";
+
+
+//Signup page
+
+"Best_Products_Best_Prices_Just_tap_and_get_whatever_you_want"="أفضل المنتجات بأفضل الأسعار، فقط اضغط واحصل على كل ما تريد";
+
+"Please_fill_all_fields"="يرجى ملء الحقول لتسجيل الدخول";
+"FirstName"=" First Name ";
+"LastName"=" Last Name ";
+"Mobile"=" Mobile ";
+"Address"=" Address ";
+"City"=" City ";
+"SIGNUP"="SIGN UP";
+
+
+//OTP Screen
+
+"Resend"="إعادة إرسال؟";
+"send"="SEND";
+"verify"="Verify OTP";
+"Continue"="استمرار";
+"Please_enter_password_to_continue"="الرجاء إدخال كلمة المرور للمتابعة";
+"Password_has_been_sent_successfully"="تم إرسال كلمة المرور بنجاح";
+"Data_not_found"="No data available";
+
+//Utils
+
+"Added_to_cart"="Product successfully added to cart";
+"Removed_from_cart"="تمت إزالته من السلة";
+"Not_added_to_cart"="لم تتم إضافته إلى السلة";
+"Added_to_wishlist"="تمت الإضافة إلى قائمة المفضلات";
+"Not_added_wish_list"="لم تتم الإضافة إلى قائمة المفضلات";
+
+
+//Wishlist
+
+"My_List"="قائمتي";
+"Delete"="Delete";
+"SAR"="SR";
+"Deleted_successfully"="تم الحذف بنجاح";
+
+"there_is_no_data_to_show_you"="There is no data to show you right now.";
+
+//Product
+"outOfStock"="Out of Stock";
+"options"="Options";
+"Quantity"="Quantity";
+"weight"="Weight";
+"Description"="Description";
+"Related_Items"="Related Items";
+"ADD_TO_CART"=" ADD TO CART";
+"SAVE_TO_LIST"="حفظ في القائمة";
+"OK"="OK";
+
+//Order history
+
+"Orders"="Orders";
+"orders_history"="Order History";
+"Order_ID"="Order ID";
+"Order_Date"="Order Date";
+"Delivery_Slots"="Delivery Slot";
+"Received_By"="Received By";
+"Details"="Details";
+
+"Placed"="Placed";
+"Accepted"="Accepted";
+"Shopping"="Shopping";
+"On_the_way"="On the way";
+"Delivered"="Delivered";
+
+"order_date_time" = "Order Date And Time";
+
+"Date_added"="Date Added";
+
+"total"="المجموع";
+
+"Name"="الاسم:";
+"No_Order"=" لا يوجد طلب شراء";
+
+"Orders_Details"="Order Details";
+"Order_Info"="Order Info";
+"Product_in_Cart"="المنتج في السلة";
+"Product_in_Cart_0"="Products in Cart";
+"Model"="نموذج:";
+"Price"="السعر";
+"Order_IDs"="Order ID";
+"Order_Dates"="تاريخ طلب الشراء";
+"Status"="Status";
+"Payment_Details"="Payment Details";
+"Shipping_method"="طريقة الشحن";
+"Delivery_Address"="Delivery Address";
+
+
+//Checkout
+
+"now"="ASAP";
+"schedule"="Schedule";
+
+"add"="ADD";
+"proceed_to_payment"="PROCEED TO PAYMENT";
+"Checkout"="إتمام الطلب";
+
+"Cash_On_Delivery"="Cash On Delivery";
+"Bank_Transfer"="Bank Transfer";
+"Credit_Debit_Card"="Credit or Debit Cart";
+"Delivery_slot_not_available"="No delivery time selected";
+
+"Add_New_Address"="+ Add A New Address";
+
+"Payment_Method"="Payment Method";
+"BANK_TRANSFER_INSTRUCTION"="تعليمات التحويل المصرفي";
+"Please_transfer_the_total_amount"="يرجى تحويل المبلغ الإجمالي إلى الحساب المصرفي التالي.";
+"Bank_Name_National_Commercial_Bank"="البنك: بنك ساب";
+"Account_Number"="رقم الحساب: 259138915001";
+"IBAN_No"=" SA0245000000259138915001 رقم الحساب المصرفي الدولي:";
+"Your_order_will_not_ship"="لن يتم شحن طلب الشراء الخاص بك";
+"PLACE_ORDER"=" إرسال طلب الشراء";
+"Account_title"="العنوان: شركة قريب السعودية";
+"Removed_from_wish_list"="تمت إزالته من قائمة المفضلات";
+
+//Cart
+
+"Cart"="Cart";
+"no_delivery_time_selected"="No delivery time selected";
+"This_coupon_can_only"="لا يمكن استخدام هذه القسيمة إلا لطلب شراء يتجاوز 100 ريال سعودي";
+"Coupon_Code"="Have a coupon code?";
+"APPLY"="Apply";
+"Type_Comment_Here"="اكتب تعليق هنا";
+"Sub_Total"="Sub Total";
+"Credit_Coupon"="Credit/Coupon/Voucher";
+"Delivry_Free"="Delivery fee";
+"Free"="Free";
+"CHECK_OUT"="CHECK OUT";
+"VAT"="Value Added Tax (VAT 5%)؜";
+"more_and_unlock"="more to min limit";
+"Buy"="Buy";
+//"FREE"="مجاناً";
+"delivery"="التوصيل";
+
+
+// Order placed
+
+"warning_on_store_swich_to_empty_cart"="إفي حالةتغير المتجر، ستكون سلة  التسوق السابقة فارغة";
+"Your_order_successfully_added"="تم إرسال طلبك بنجاح";
+"DAYS"="أيام";
+"HOURS"="ساعة";
+"MINUTES"="دقيقة";
+"Order"="طلب شراء";
+"Warning"="تحذير";
+"Terms_and_Conditions"="الأحكام والشروط";
+"no_products_found"="لم يتم العثور على منتجات";
+
+"find"="FIND";
+"locateme"="تحديد موقعي";
+"lowOrderFee"="رسوم التوصيل";
+"Please_enter_your_comments"="Have a comment? add it here";
+"Please_mention_reason_to_Return"="الرجاء إدخال سبب الإسترجاع";
+"Type_here_your_comments"="اكتب تعليقك هنا";
+"Return_order_successfuly_submitted"="تم  إرسال طلب الاسترجاع بنجاح";
+"Problem_in_order_returning"="مشكلة في طلب الاسترجاع";
+"Coupon"="كوبون";
+"Credit"="ائتمان";
+"SelectStore"="اختر المتجر";
+"Store_not_found"="المتجر غير موجود";
+"Minimum_Order_Limit"="Min Limit:";
+"Delivery_Charges"="رسوم التوصيل";
+
+"select_store"="Select your favorite store";
+"amount"="ادفع $10";
+"Language_en"="English";
+"Language_ar"="العربية";
+"hint_card_number"="رقم البطاقة";
+"hint_card_month"="شهر";
+"hint_card_year"="عام";
+"hint_card_cvc"="CVC";
+"hint_card_owner"="إسم صاحب البطاقة";
+"pay"="دفع!";
+"edit_text_invalid"="حقل غير صالح";
+"congrats"=" رمزك المميز هوs٪.يمكنك إرسال هذا الرمز المميز إلى خادم التطبيق الخاص بك.";
+"error"="خطأ في الحصول على الرمز...";
+"debitCreditDetails"="تفاصيل بطاقة الائتمان";
+
+
+
+"description"="وصف:";
+"web_view_validation_alert"="البنك الذي تتعامل معه يتطلب مزيدًا من التحقق";
+
+
+"VATinclusive"="الأسعارشاملة قيمة الضريبة المضافة";
+"StoreClosed"="المتجر مغلق";
+"hrs"="ساعة";
+"Update"="UPDATE";
+
+"Product_not_found"="المنتج غير موجود في المتجر المحدد. إذا كنت ترغب في شراء هذا المنتج، ستكون عربة  التسوق فارغة";
+
+"Product_not_found_toast"="المنتج غير موجود في المتجر المحدد";
+"nextDelivery"="التوصيل القادم";
+"today"="اليوم";
+"selectCity"="Select City";
+"selectArea"="Select Area";
+
+//Update your application
+
+//Bank account
+
+"BANK_TRANSFER_INSTRUCTION"= "BANK TRANSFER INSTRUCTIONS";
+"Please_transfer_the_total_amount" = "Please transfer the total amount to the following bank account.";
+"Account_title"="Title: Qareeb Saudi Company";
+"Bank_Name_National_Commercial_Bank" = "Bank Name: SABB Bank";
+"Account_Number" = "Account Number: 259138915001";
+"IBAN_No" = "IBAN No: SA0245000000259138915001";
+"Your_order_will_not_ship"="Your order will not ship until we recieve payment.";
+
+
+
+//MARK:- WALK THROUGH SCREENS
+
+//FIRST SCREEN
+"SET_LOCATION" = "Set your location";
+"SET_LOCATION_DESCRIPTION" = "To display your nearest store, set your location manually or automatically by clicking on Locate me.";
+//SECOND SCREEN
+"SELECT_STORE" = "Select your store";
+"SELECT_STORE_DESCRIPTION" = "Select your favorite store from a wide list.";
+//THIRD SCREEN
+"PLACE_YOUR_ORDER" = "Place your order";
+"PLACE_ORDER_DESCRIPTION" = "Browse all categories to add products in the cart, and proceed checkout to place order.";
+//FOUTH SCREEN
+"GET_DELIVERY" = "Get delivery at your doorstep";
+"GET_DELIVERY_DESCRIPTION" = "Our specially trained Shopper will shop your order and deliver as per selected delivery slot.";
+//BUTTONS
+"GET_STARTED" = "GET STARTED NOW";
+"SKIP" = "skip";
+"NEXT" = "Next";
+"CHANGE_LANGUAGE" = "  change language";

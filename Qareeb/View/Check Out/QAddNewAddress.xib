@@ -1,0 +1,300 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Light.otf">
+            <string>Montserrat-Light</string>
+        </array>
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="QAddNewAddress" customModule="Qareeb" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="e8q-vL-mA1">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <connections>
+                        <action selector="btnDismiss:" destination="iN0-l3-epB" eventType="touchUpInside" id="iZs-wH-M6b"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vxk-ht-QOC" customClass="UIViewX" customModule="Qareeb" customModuleProvider="target">
+                    <rect key="frame" x="15" y="105.5" width="345" height="389"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KLJ-uu-ehA" customClass="UIViewX" customModule="Qareeb" customModuleProvider="target">
+                            <rect key="frame" x="34.5" y="163" width="276" height="40"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="8M6-UD-wkW">
+                                    <rect key="frame" x="19" y="5" width="243" height="30"/>
+                                    <color key="tintColor" name="text_color"/>
+                                    <color key="textColor" name="text_color"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" textContentType="name"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="maxLength">
+                                            <integer key="value" value="13"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" name="blueberry"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="8M6-UD-wkW" secondAttribute="trailing" constant="14" id="30d-8n-ALc"/>
+                                <constraint firstAttribute="bottom" secondItem="8M6-UD-wkW" secondAttribute="bottom" constant="5" id="DKI-kt-LE9"/>
+                                <constraint firstItem="8M6-UD-wkW" firstAttribute="top" secondItem="KLJ-uu-ehA" secondAttribute="top" constant="5" id="Qrd-eh-IKV"/>
+                                <constraint firstItem="8M6-UD-wkW" firstAttribute="leading" secondItem="KLJ-uu-ehA" secondAttribute="leading" constant="19" id="RGL-2M-V6E"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" name="text_color"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="0.5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cRadius">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ihX-Pr-ueN" customClass="UIViewX" customModule="Qareeb" customModuleProvider="target">
+                            <rect key="frame" x="34.5" y="223.5" width="276" height="40"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="v30-Po-l9k">
+                                    <rect key="frame" x="19" y="5" width="241" height="30"/>
+                                    <color key="tintColor" name="text_color"/>
+                                    <color key="textColor" name="text_color"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" textContentType="street-address"/>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" name="blueberry"/>
+                            <constraints>
+                                <constraint firstItem="v30-Po-l9k" firstAttribute="leading" secondItem="ihX-Pr-ueN" secondAttribute="leading" constant="19" id="0o4-DO-6Ma"/>
+                                <constraint firstAttribute="trailing" secondItem="v30-Po-l9k" secondAttribute="trailing" constant="16" id="69I-UY-SB6"/>
+                                <constraint firstAttribute="bottom" secondItem="v30-Po-l9k" secondAttribute="bottom" constant="5" id="Jn7-B4-qJr"/>
+                                <constraint firstAttribute="height" constant="40" id="heA-yk-TJr"/>
+                                <constraint firstItem="v30-Po-l9k" firstAttribute="top" secondItem="ihX-Pr-ueN" secondAttribute="top" constant="5" id="k99-BL-7od"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" name="text_color"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="0.5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cRadius">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Address  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="sUe-fG-4aa">
+                            <rect key="frame" x="48.5" y="213" width="50" height="21"/>
+                            <color key="backgroundColor" name="blueberry"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="Yl3-qj-Nbr"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="10"/>
+                            <color key="textColor" name="sunflower_yellow"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  City  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aL0-Kv-0Mk">
+                            <rect key="frame" x="48.5" y="152.5" width="30" height="21"/>
+                            <color key="backgroundColor" name="blueberry"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="hrM-7d-D4V"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="10"/>
+                            <color key="textColor" name="sunflower_yellow"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Bif-d2-PhG" customClass="UIViewX" customModule="Qareeb" customModuleProvider="target">
+                            <rect key="frame" x="34.5" y="102.5" width="276" height="40"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="feM-y2-4nH">
+                                    <rect key="frame" x="19" y="5" width="241" height="30"/>
+                                    <color key="tintColor" name="text_color"/>
+                                    <color key="textColor" name="text_color"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" keyboardType="emailAddress" textContentType="email"/>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" name="blueberry"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="feM-y2-4nH" secondAttribute="trailing" constant="16" id="8Az-6Q-uao"/>
+                                <constraint firstAttribute="bottom" secondItem="feM-y2-4nH" secondAttribute="bottom" constant="5" id="9pa-tb-v1X"/>
+                                <constraint firstItem="feM-y2-4nH" firstAttribute="leading" secondItem="Bif-d2-PhG" secondAttribute="leading" constant="19" id="Jhp-U0-jiU"/>
+                                <constraint firstItem="feM-y2-4nH" firstAttribute="top" secondItem="Bif-d2-PhG" secondAttribute="top" constant="5" id="tQN-zn-gg2"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" name="text_color"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="0.5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cRadius">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  Last Name  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="9Wj-nC-DtI">
+                            <rect key="frame" x="48.5" y="92" width="63.5" height="21"/>
+                            <color key="backgroundColor" name="blueberry"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="erk-7g-376"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="10"/>
+                            <color key="textColor" name="sunflower_yellow"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ccs-Qk-ad4" customClass="UIViewX" customModule="Qareeb" customModuleProvider="target">
+                            <rect key="frame" x="34.5" y="42" width="276" height="40"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FTd-cK-CcV">
+                                    <rect key="frame" x="19" y="5" width="241" height="30"/>
+                                    <color key="tintColor" name="text_color"/>
+                                    <color key="textColor" name="text_color"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits" textContentType="name"/>
+                                    <userDefinedRuntimeAttributes>
+                                        <userDefinedRuntimeAttribute type="number" keyPath="maxLength">
+                                            <integer key="value" value="31"/>
+                                        </userDefinedRuntimeAttribute>
+                                    </userDefinedRuntimeAttributes>
+                                </textField>
+                            </subviews>
+                            <color key="backgroundColor" name="blueberry"/>
+                            <constraints>
+                                <constraint firstAttribute="trailing" secondItem="FTd-cK-CcV" secondAttribute="trailing" constant="16" id="2Iz-zO-hCt"/>
+                                <constraint firstItem="FTd-cK-CcV" firstAttribute="top" secondItem="ccs-Qk-ad4" secondAttribute="top" constant="5" id="CGH-ss-wx4"/>
+                                <constraint firstAttribute="bottom" secondItem="FTd-cK-CcV" secondAttribute="bottom" constant="5" id="KNl-BY-qmm"/>
+                                <constraint firstItem="FTd-cK-CcV" firstAttribute="leading" secondItem="ccs-Qk-ad4" secondAttribute="leading" constant="19" id="hGv-Re-VNy"/>
+                            </constraints>
+                            <userDefinedRuntimeAttributes>
+                                <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                    <color key="value" name="text_color"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                    <real key="value" value="0.5"/>
+                                </userDefinedRuntimeAttribute>
+                                <userDefinedRuntimeAttribute type="number" keyPath="cRadius">
+                                    <real key="value" value="1"/>
+                                </userDefinedRuntimeAttribute>
+                            </userDefinedRuntimeAttributes>
+                        </view>
+                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="  First Name  " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H3h-B1-azG">
+                            <rect key="frame" x="48.5" y="31.5" width="64.5" height="21"/>
+                            <color key="backgroundColor" name="blueberry"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="21" id="fGN-8w-QUd"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Light" family="Montserrat" pointSize="10"/>
+                            <color key="textColor" name="sunflower_yellow"/>
+                            <nil key="highlightedColor"/>
+                        </label>
+                        <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XJr-EK-UKV">
+                            <rect key="frame" x="0.0" y="349" width="345" height="40"/>
+                            <color key="backgroundColor" name="boring_green"/>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="40" id="Huo-IW-BQR"/>
+                            </constraints>
+                            <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
+                            <state key="normal" title="ADD">
+                                <color key="titleColor" name="text_color"/>
+                            </state>
+                            <connections>
+                                <action selector="btnAddAddress:" destination="iN0-l3-epB" eventType="touchUpInside" id="HKN-rD-fQq"/>
+                            </connections>
+                        </button>
+                    </subviews>
+                    <color key="backgroundColor" name="blueberry"/>
+                    <constraints>
+                        <constraint firstItem="uYh-cR-uPG" firstAttribute="trailing" secondItem="XJr-EK-UKV" secondAttribute="trailing" id="1BS-ZD-rcG"/>
+                        <constraint firstItem="ihX-Pr-ueN" firstAttribute="centerX" secondItem="vxk-ht-QOC" secondAttribute="centerX" id="1GT-s9-FCz"/>
+                        <constraint firstItem="sUe-fG-4aa" firstAttribute="leading" secondItem="ihX-Pr-ueN" secondAttribute="leading" constant="14" id="2Yj-So-kag"/>
+                        <constraint firstItem="Bif-d2-PhG" firstAttribute="height" secondItem="ihX-Pr-ueN" secondAttribute="height" id="6OX-NR-gRN"/>
+                        <constraint firstItem="ccs-Qk-ad4" firstAttribute="width" secondItem="ihX-Pr-ueN" secondAttribute="width" id="89P-ud-Hfn"/>
+                        <constraint firstItem="9Wj-nC-DtI" firstAttribute="centerY" secondItem="Bif-d2-PhG" secondAttribute="top" id="ALv-Dh-MHp"/>
+                        <constraint firstItem="sUe-fG-4aa" firstAttribute="centerY" secondItem="ihX-Pr-ueN" secondAttribute="top" id="Grf-k2-5qI"/>
+                        <constraint firstItem="ihX-Pr-ueN" firstAttribute="centerY" secondItem="vxk-ht-QOC" secondAttribute="centerY" multiplier="1.25" id="Gsa-gN-E36"/>
+                        <constraint firstItem="ccs-Qk-ad4" firstAttribute="height" secondItem="ihX-Pr-ueN" secondAttribute="height" id="H1U-u1-96p"/>
+                        <constraint firstItem="Bif-d2-PhG" firstAttribute="width" secondItem="ihX-Pr-ueN" secondAttribute="width" id="HeZ-Rn-u4D"/>
+                        <constraint firstItem="ccs-Qk-ad4" firstAttribute="centerX" secondItem="vxk-ht-QOC" secondAttribute="centerX" id="KVI-8h-qdk"/>
+                        <constraint firstItem="aL0-Kv-0Mk" firstAttribute="centerY" secondItem="KLJ-uu-ehA" secondAttribute="top" id="Kbl-Fc-dbA"/>
+                        <constraint firstItem="H3h-B1-azG" firstAttribute="leading" secondItem="ccs-Qk-ad4" secondAttribute="leading" constant="14" id="LA0-UN-egb"/>
+                        <constraint firstItem="KLJ-uu-ehA" firstAttribute="centerX" secondItem="vxk-ht-QOC" secondAttribute="centerX" id="Lso-ZU-TT3"/>
+                        <constraint firstItem="aL0-Kv-0Mk" firstAttribute="leading" secondItem="KLJ-uu-ehA" secondAttribute="leading" constant="14" id="NFB-gD-Fuy"/>
+                        <constraint firstItem="ihX-Pr-ueN" firstAttribute="width" secondItem="vxk-ht-QOC" secondAttribute="width" multiplier="0.8" id="QvW-Ox-exb"/>
+                        <constraint firstItem="uYh-cR-uPG" firstAttribute="bottom" secondItem="XJr-EK-UKV" secondAttribute="bottom" id="ShG-zC-KT7"/>
+                        <constraint firstItem="aL0-Kv-0Mk" firstAttribute="top" secondItem="Bif-d2-PhG" secondAttribute="bottom" constant="10" id="UUU-MX-OjT"/>
+                        <constraint firstItem="ihX-Pr-ueN" firstAttribute="height" secondItem="vxk-ht-QOC" secondAttribute="height" multiplier="0.09" constant="5" id="WZJ-hf-9K2"/>
+                        <constraint firstItem="9Wj-nC-DtI" firstAttribute="leading" secondItem="Bif-d2-PhG" secondAttribute="leading" constant="14" id="X6H-xI-vkc"/>
+                        <constraint firstItem="XJr-EK-UKV" firstAttribute="leading" secondItem="uYh-cR-uPG" secondAttribute="leading" id="bGU-2a-CBM"/>
+                        <constraint firstItem="sUe-fG-4aa" firstAttribute="top" secondItem="KLJ-uu-ehA" secondAttribute="bottom" constant="10" id="f2s-CJ-TPy"/>
+                        <constraint firstItem="Bif-d2-PhG" firstAttribute="centerX" secondItem="vxk-ht-QOC" secondAttribute="centerX" id="gfn-Pw-25j"/>
+                        <constraint firstItem="H3h-B1-azG" firstAttribute="centerY" secondItem="ccs-Qk-ad4" secondAttribute="top" id="hpp-Fq-OGO"/>
+                        <constraint firstItem="KLJ-uu-ehA" firstAttribute="width" secondItem="ihX-Pr-ueN" secondAttribute="width" id="joZ-4I-lDh"/>
+                        <constraint firstItem="9Wj-nC-DtI" firstAttribute="top" secondItem="ccs-Qk-ad4" secondAttribute="bottom" constant="10" id="lU5-H5-Wd8"/>
+                        <constraint firstItem="KLJ-uu-ehA" firstAttribute="height" secondItem="ihX-Pr-ueN" secondAttribute="height" id="sGE-iS-ABh"/>
+                    </constraints>
+                    <viewLayoutGuide key="safeArea" id="uYh-cR-uPG"/>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cRadius">
+                            <real key="value" value="4"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" red="0.36470588235294116" green="0.46274509803921571" blue="0.52549019607843139" alpha="0.7972412109375" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="e8q-vL-mA1" secondAttribute="trailing" id="2Y6-Cv-Kdq"/>
+                <constraint firstItem="vxk-ht-QOC" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="15" id="JfY-TC-GFr"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="e8q-vL-mA1" secondAttribute="bottom" id="bYG-LD-LIW"/>
+                <constraint firstItem="e8q-vL-mA1" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="eD8-Z2-cNV"/>
+                <constraint firstItem="vxk-ht-QOC" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" multiplier="0.9" id="eLG-Rm-xGp"/>
+                <constraint firstItem="e8q-vL-mA1" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="pmL-RY-Udc"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="vxk-ht-QOC" secondAttribute="trailing" constant="15" id="yBO-8s-rk3"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="addressLabel" destination="sUe-fG-4aa" id="314-t4-SL3"/>
+                <outlet property="btnAdd" destination="XJr-EK-UKV" id="XSQ-ff-g9C"/>
+                <outlet property="cityLabel" destination="aL0-Kv-0Mk" id="pv1-eS-mmc"/>
+                <outlet property="firstNameLabel" destination="H3h-B1-azG" id="XMi-CH-j06"/>
+                <outlet property="lastNameLabel" destination="9Wj-nC-DtI" id="pji-cr-nBR"/>
+                <outlet property="lblAddress" destination="v30-Po-l9k" id="MaF-7M-F2v"/>
+                <outlet property="lblCity" destination="8M6-UD-wkW" id="4aj-vK-0I7"/>
+                <outlet property="lblLastName" destination="feM-y2-4nH" id="c1S-Rp-ra9"/>
+                <outlet property="lblfirstname" destination="FTd-cK-CcV" id="3L0-bF-nvf"/>
+            </connections>
+            <point key="canvasLocation" x="53.600000000000001" y="48.125937031484263"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="blueberry">
+            <color red="0.41176470588235292" green="0.28235294117647058" blue="0.61568627450980395" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="boring_green">
+            <color red="0.44313725490196076" green="0.69803921568627447" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="sunflower_yellow">
+            <color red="1" green="0.8784313725490196" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="text_color">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="QCartCell" rowHeight="121" id="KGk-i7-Jjw" customClass="QCartCell" customModule="Qareeb" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="328" height="121"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="328" height="120.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nPB-on-6XB">
+                        <rect key="frame" x="0.0" y="0.0" width="328" height="120.5"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="Eaf-SW-Eb9">
+                                <rect key="frame" x="15" y="10" width="82" height="100.5"/>
+                            </imageView>
+                            <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QUQ-2y-lfm">
+                                <rect key="frame" x="103" y="74.5" width="98.5" height="33"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" translatesAutoresizingMaskIntoConstraints="NO" id="BjK-KG-rK1">
+                                        <rect key="frame" x="0.0" y="0.0" width="88.5" height="33"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UTp-Qp-U7x">
+                                                <rect key="frame" x="0.0" y="0.0" width="29.5" height="33"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                <state key="normal" image="invalidName-2">
+                                                    <color key="titleColor" name="boring_green"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btnMinus:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="toq-eu-0Zs"/>
+                                                </connections>
+                                            </button>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="idL-R0-KL0">
+                                                <rect key="frame" x="29.5" y="0.0" width="29.5" height="33"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
+                                                <color key="textColor" name="blue_grey"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <button opaque="NO" contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="6Jj-mN-cCd">
+                                                <rect key="frame" x="59" y="0.0" width="29.5" height="33"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                                <state key="normal" image="invalidName">
+                                                    <color key="titleColor" name="boring_green"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="btnPlus:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="f4s-0l-ilC"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
+                                    <button contentMode="scaleAspectFit" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hBC-SH-tQU">
+                                        <rect key="frame" x="0.0" y="0.0" width="131" height="36.5"/>
+                                        <color key="backgroundColor" name="blueberry"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="27"/>
+                                        <state key="normal" image="addToCartIcon"/>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstItem="BjK-KG-rK1" firstAttribute="top" secondItem="QUQ-2y-lfm" secondAttribute="top" id="7DS-mS-jQQ"/>
+                                    <constraint firstAttribute="bottom" secondItem="hBC-SH-tQU" secondAttribute="bottom" id="U9g-0z-74V"/>
+                                    <constraint firstAttribute="trailing" secondItem="BjK-KG-rK1" secondAttribute="trailing" constant="10" id="atD-jZ-FCx"/>
+                                    <constraint firstItem="hBC-SH-tQU" firstAttribute="top" secondItem="QUQ-2y-lfm" secondAttribute="top" id="bBt-yK-qtl"/>
+                                    <constraint firstAttribute="bottom" secondItem="BjK-KG-rK1" secondAttribute="bottom" id="ez1-af-x0O"/>
+                                    <constraint firstItem="BjK-KG-rK1" firstAttribute="leading" secondItem="QUQ-2y-lfm" secondAttribute="leading" id="fER-F2-FRO"/>
+                                    <constraint firstAttribute="trailing" secondItem="hBC-SH-tQU" secondAttribute="trailing" id="icj-2h-pIJ"/>
+                                    <constraint firstItem="hBC-SH-tQU" firstAttribute="leading" secondItem="QUQ-2y-lfm" secondAttribute="leading" id="jkf-IB-nA5"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="subviews">
+                                        <exclude reference="hBC-SH-tQU"/>
+                                    </mask>
+                                </variation>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aPI-ng-Car" customClass="UIViewX" customModule="Qareeb" customModuleProvider="target">
+                                <rect key="frame" x="107" y="51.5" width="74" height="18"/>
+                                <color key="backgroundColor" name="sunflower_yellow"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="bdj-dG-ZMB"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cRadius">
+                                        <real key="value" value="9.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9.95 SR " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JRU-tb-FUt">
+                                <rect key="frame" x="107" y="51.5" width="74" height="18"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="9G1-3f-2GE"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="11"/>
+                                <color key="textColor" name="blueberry"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dPX-ZB-16I" customClass="UIViewX" customModule="Qareeb" customModuleProvider="target">
+                                <rect key="frame" x="183" y="51.5" width="73.5" height="18"/>
+                                <color key="backgroundColor" name="sunflower_yellow"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="3oy-ip-dt5"/>
+                                </constraints>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cRadius">
+                                        <real key="value" value="9.5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9.95 SR " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kOD-qf-vXv">
+                                <rect key="frame" x="183" y="51.5" width="73.5" height="18"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="18" id="bXh-9r-GEi"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="11"/>
+                                <color key="textColor" name="blueberry"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Chocolate &amp; Nuts Pastry " lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="say-qB-B7t">
+                                <rect key="frame" x="107" y="29.5" width="171" height="17"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="14"/>
+                                <color key="textColor" name="blue_grey"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" showsTouchWhenHighlighted="YES" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="OTq-fx-vWh">
+                                <rect key="frame" x="283" y="0.0" width="40" height="120.5"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="40" id="er4-aT-Ndh"/>
+                                </constraints>
+                                <state key="normal" image="x"/>
+                                <connections>
+                                    <action selector="btnDelete:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="Ucs-ei-xaN"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="JRU-tb-FUt" firstAttribute="centerY" secondItem="Eaf-SW-Eb9" secondAttribute="centerY" id="1fD-wj-Uyj"/>
+                            <constraint firstItem="say-qB-B7t" firstAttribute="leading" secondItem="Eaf-SW-Eb9" secondAttribute="trailing" constant="10" id="5JN-bG-qPy"/>
+                            <constraint firstItem="JRU-tb-FUt" firstAttribute="trailing" secondItem="aPI-ng-Car" secondAttribute="trailing" id="6Qw-jd-iII"/>
+                            <constraint firstItem="dPX-ZB-16I" firstAttribute="width" secondItem="aPI-ng-Car" secondAttribute="width" id="8jy-K6-HCZ"/>
+                            <constraint firstItem="aPI-ng-Car" firstAttribute="centerY" secondItem="Eaf-SW-Eb9" secondAttribute="centerY" id="Bcj-0E-jCD"/>
+                            <constraint firstItem="aPI-ng-Car" firstAttribute="width" secondItem="Eaf-SW-Eb9" secondAttribute="width" multiplier="0.9" id="Cge-zC-kz3"/>
+                            <constraint firstItem="kOD-qf-vXv" firstAttribute="width" secondItem="JRU-tb-FUt" secondAttribute="width" id="FYB-38-R3e"/>
+                            <constraint firstItem="kOD-qf-vXv" firstAttribute="top" secondItem="JRU-tb-FUt" secondAttribute="top" id="GwT-mA-WTW"/>
+                            <constraint firstItem="QUQ-2y-lfm" firstAttribute="leading" secondItem="Eaf-SW-Eb9" secondAttribute="trailing" constant="6" id="J0N-f4-eq7"/>
+                            <constraint firstItem="dPX-ZB-16I" firstAttribute="top" secondItem="aPI-ng-Car" secondAttribute="top" id="Jyp-oO-JVG"/>
+                            <constraint firstItem="dPX-ZB-16I" firstAttribute="leading" secondItem="aPI-ng-Car" secondAttribute="trailing" constant="2" id="Ot6-mT-XSM"/>
+                            <constraint firstItem="Eaf-SW-Eb9" firstAttribute="top" secondItem="nPB-on-6XB" secondAttribute="top" constant="10" id="P1A-Ae-YSb"/>
+                            <constraint firstAttribute="trailing" secondItem="OTq-fx-vWh" secondAttribute="trailing" constant="5" id="W1F-HR-01u"/>
+                            <constraint firstItem="aPI-ng-Car" firstAttribute="leading" secondItem="JRU-tb-FUt" secondAttribute="leading" id="aIt-Bs-TFf"/>
+                            <constraint firstItem="JRU-tb-FUt" firstAttribute="top" secondItem="say-qB-B7t" secondAttribute="bottom" constant="5" id="bEI-ci-AHh"/>
+                            <constraint firstItem="OTq-fx-vWh" firstAttribute="top" secondItem="nPB-on-6XB" secondAttribute="top" id="dKq-jT-IQk"/>
+                            <constraint firstItem="Eaf-SW-Eb9" firstAttribute="width" secondItem="nPB-on-6XB" secondAttribute="width" multiplier="0.25" id="g6m-ig-Rju"/>
+                            <constraint firstItem="QUQ-2y-lfm" firstAttribute="top" secondItem="JRU-tb-FUt" secondAttribute="bottom" constant="5" id="hhF-PW-mhD"/>
+                            <constraint firstItem="OTq-fx-vWh" firstAttribute="leading" secondItem="say-qB-B7t" secondAttribute="trailing" constant="5" id="lmK-q2-3Wa"/>
+                            <constraint firstItem="JRU-tb-FUt" firstAttribute="leading" secondItem="Eaf-SW-Eb9" secondAttribute="trailing" constant="10" id="nEA-LD-ULc"/>
+                            <constraint firstAttribute="bottom" secondItem="Eaf-SW-Eb9" secondAttribute="bottom" constant="10" id="ol7-JO-cGX"/>
+                            <constraint firstItem="kOD-qf-vXv" firstAttribute="leading" secondItem="aPI-ng-Car" secondAttribute="trailing" constant="2" id="pqp-nw-eW2"/>
+                            <constraint firstItem="QUQ-2y-lfm" firstAttribute="width" secondItem="nPB-on-6XB" secondAttribute="width" multiplier="0.3" id="qeg-TP-V6X"/>
+                            <constraint firstItem="Eaf-SW-Eb9" firstAttribute="leading" secondItem="nPB-on-6XB" secondAttribute="leading" constant="15" id="uW4-A7-yFi"/>
+                            <constraint firstAttribute="bottom" secondItem="OTq-fx-vWh" secondAttribute="bottom" id="wPw-D7-I48"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="nPB-on-6XB" secondAttribute="bottom" id="JwQ-x9-GO3"/>
+                    <constraint firstItem="nPB-on-6XB" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Ybl-34-Kzm"/>
+                    <constraint firstAttribute="trailing" secondItem="nPB-on-6XB" secondAttribute="trailing" id="jkT-3m-nnx"/>
+                    <constraint firstItem="nPB-on-6XB" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="xK4-PT-7AS"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="imgProduct" destination="Eaf-SW-Eb9" id="q21-Tc-YLt"/>
+                <outlet property="lblName" destination="say-qB-B7t" id="RUt-lH-eEL"/>
+                <outlet property="lblPrice" destination="JRU-tb-FUt" id="Gn2-z9-gu1"/>
+                <outlet property="lblQuantity" destination="idL-R0-KL0" id="qjO-kL-qve"/>
+                <outlet property="lblSpecial" destination="kOD-qf-vXv" id="ueT-zs-9g3"/>
+                <outlet property="specialView" destination="dPX-ZB-16I" id="Qxd-40-SaL"/>
+            </connections>
+            <point key="canvasLocation" x="129.59999999999999" y="181.25937031484258"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="addToCartIcon" width="20" height="20"/>
+        <image name="invalidName" width="21" height="21"/>
+        <image name="invalidName-2" width="20" height="21"/>
+        <image name="x" width="20" height="21"/>
+        <namedColor name="blue_grey">
+            <color red="0.36470588235294116" green="0.46274509803921571" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="blueberry">
+            <color red="0.41176470588235292" green="0.28235294117647058" blue="0.61568627450980395" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="boring_green">
+            <color red="0.44313725490196076" green="0.69803921568627447" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="sunflower_yellow">
+            <color red="1" green="0.8784313725490196" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

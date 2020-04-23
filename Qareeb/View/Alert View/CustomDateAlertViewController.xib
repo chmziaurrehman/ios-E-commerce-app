@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12120" systemVersion="16F67a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomDateAlertViewController" customModule="PatientApp" customModuleProvider="target">
+            <connections>
+                <outlet property="datePicker" destination="fvd-fn-pF4" id="80G-L9-7cL"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="260"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vK6-i9-csk">
+                    <rect key="frame" x="297" y="6" width="37" height="30"/>
+                    <state key="normal" title="Done"/>
+                    <connections>
+                        <action selector="btnDone:" destination="-1" eventType="touchUpInside" id="nmH-pH-wSK"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9xV-XS-3Ph">
+                    <rect key="frame" x="16" y="6" width="48" height="30"/>
+                    <state key="normal" title="Cancel"/>
+                    <connections>
+                        <action selector="btnCancel:" destination="-1" eventType="touchUpInside" id="dl8-da-shI"/>
+                    </connections>
+                </button>
+                <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="date" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="fvd-fn-pF4">
+                    <rect key="frame" x="0.0" y="44" width="350" height="216"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="216" id="5HS-hV-yoU"/>
+                    </constraints>
+                    <date key="date" timeIntervalSinceReferenceDate="506610159.92290199">
+                        <!--2017-01-20 13:02:39 +0000-->
+                    </date>
+                </datePicker>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="vK6-i9-csk" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="6" id="E8d-aq-uMo"/>
+                <constraint firstItem="9xV-XS-3Ph" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="QWu-xH-WVL"/>
+                <constraint firstAttribute="trailing" secondItem="fvd-fn-pF4" secondAttribute="trailing" id="gvm-aP-eDz"/>
+                <constraint firstAttribute="bottom" secondItem="fvd-fn-pF4" secondAttribute="bottom" id="jg8-cQ-LLp"/>
+                <constraint firstItem="9xV-XS-3Ph" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="6" id="m2e-Cu-cyR"/>
+                <constraint firstAttribute="trailing" secondItem="vK6-i9-csk" secondAttribute="trailing" constant="16" id="sYw-G7-AfE"/>
+                <constraint firstItem="fvd-fn-pF4" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="zz1-Ta-dYG"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="12" y="-149"/>
+        </view>
+    </objects>
+</document>

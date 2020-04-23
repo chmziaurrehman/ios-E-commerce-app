@@ -1,0 +1,207 @@
+PODS:
+  - Alamofire (4.8.1)
+  - AlamofireImage (3.5.2):
+    - Alamofire (~> 4.8)
+  - AlamofireObjectMapper (5.2.0):
+    - Alamofire (~> 4.7)
+    - ObjectMapper (~> 3.4)
+  - Bolts (1.9.0):
+    - Bolts/AppLinks (= 1.9.0)
+    - Bolts/Tasks (= 1.9.0)
+  - Bolts/AppLinks (1.9.0):
+    - Bolts/Tasks
+  - Bolts/Tasks (1.9.0)
+  - CheckoutKit (3.0.6)
+  - Cosmos (18.0.1)
+  - Crashlytics (3.12.0):
+    - Fabric (~> 1.9.0)
+  - DropDown (2.3.4)
+  - Fabric (1.9.0)
+  - FBSDKCoreKit (4.40.0):
+    - Bolts (~> 1.9)
+  - FBSDKLoginKit (4.40.0):
+    - FBSDKCoreKit
+  - FBSDKMarketingKit (4.38.0):
+    - FBSDKCoreKit
+  - FBSDKShareKit (4.40.0):
+    - FBSDKCoreKit
+  - Firebase/Core (5.20.1):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.8.0)
+  - Firebase/CoreOnly (5.20.1):
+    - FirebaseCore (= 5.4.1)
+  - Firebase/Messaging (5.20.1):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.5.0)
+  - FirebaseAnalytics (5.8.0):
+    - FirebaseCore (~> 5.4)
+    - FirebaseInstanceID (~> 3.8)
+    - GoogleAppMeasurement (= 5.8.0)
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - GoogleUtilities/NSData+zlib (~> 5.2)
+    - nanopb (~> 0.3)
+  - FirebaseAnalyticsInterop (1.2.0)
+  - FirebaseCore (5.4.1):
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/Logger (~> 5.2)
+  - FirebaseInstanceID (3.8.1):
+    - FirebaseCore (~> 5.2)
+    - GoogleUtilities/Environment (~> 5.2)
+    - GoogleUtilities/UserDefaults (~> 5.2)
+  - FirebaseMessaging (3.5.0):
+    - FirebaseAnalyticsInterop (~> 1.1)
+    - FirebaseCore (~> 5.2)
+    - FirebaseInstanceID (~> 3.6)
+    - GoogleUtilities/Environment (~> 5.3)
+    - GoogleUtilities/Reachability (~> 5.3)
+    - GoogleUtilities/UserDefaults (~> 5.3)
+    - Protobuf (~> 3.1)
+  - GoogleAppMeasurement (5.8.0):
+    - GoogleUtilities/AppDelegateSwizzler (~> 5.2)
+    - GoogleUtilities/MethodSwizzler (~> 5.2)
+    - GoogleUtilities/Network (~> 5.2)
+    - GoogleUtilities/NSData+zlib (~> 5.2)
+    - nanopb (~> 0.3)
+  - GoogleMaps (3.0.2):
+    - GoogleMaps/Maps (= 3.0.2)
+  - GoogleMaps/Base (3.0.2)
+  - GoogleMaps/Maps (3.0.2):
+    - GoogleMaps/Base
+  - GooglePlacePicker (3.0.2):
+    - GoogleMaps (= 3.0.2)
+    - GooglePlaces (= 3.0.2)
+  - GooglePlaces (3.0.2):
+    - GoogleMaps/Base (= 3.0.2)
+  - GoogleSignIn (4.4.0):
+    - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
+    - GoogleToolboxForMac/NSString+URLArguments (~> 2.1)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GoogleToolboxForMac/DebugUtils (2.2.0):
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+  - GoogleToolboxForMac/Defines (2.2.0)
+  - GoogleToolboxForMac/NSDictionary+URLArguments (2.2.0):
+    - GoogleToolboxForMac/DebugUtils (= 2.2.0)
+    - GoogleToolboxForMac/Defines (= 2.2.0)
+    - GoogleToolboxForMac/NSString+URLArguments (= 2.2.0)
+  - GoogleToolboxForMac/NSString+URLArguments (2.2.0)
+  - GoogleUtilities/AppDelegateSwizzler (5.5.0):
+    - GoogleUtilities/Environment
+    - GoogleUtilities/Logger
+    - GoogleUtilities/Network
+  - GoogleUtilities/Environment (5.5.0)
+  - GoogleUtilities/Logger (5.5.0):
+    - GoogleUtilities/Environment
+  - GoogleUtilities/MethodSwizzler (5.5.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/Network (5.5.0):
+    - GoogleUtilities/Logger
+    - GoogleUtilities/NSData+zlib
+    - GoogleUtilities/Reachability
+  - GoogleUtilities/NSData+zlib (5.5.0)
+  - GoogleUtilities/Reachability (5.5.0):
+    - GoogleUtilities/Logger
+  - GoogleUtilities/UserDefaults (5.5.0):
+    - GoogleUtilities/Logger
+  - GTMSessionFetcher/Core (1.2.1)
+  - ImageSlideshow/Alamofire (1.7.0):
+    - AlamofireImage (~> 3.0)
+    - ImageSlideshow/Core
+  - ImageSlideshow/Core (1.7.0)
+  - IQKeyboardManagerSwift (6.2.0)
+  - Kingfisher (4.10.1)
+  - MIBadgeButton-Swift (0.5)
+  - nanopb (0.3.901):
+    - nanopb/decode (= 0.3.901)
+    - nanopb/encode (= 0.3.901)
+  - nanopb/decode (0.3.901)
+  - nanopb/encode (0.3.901)
+  - ObjectMapper (3.4.2)
+  - OneSignal (2.9.5)
+  - Protobuf (3.7.0)
+  - Reflection (0.16.0)
+  - SVProgressHUD (2.2.5)
+  - SwiftKVC (4.0.1):
+    - Reflection (~> 0.16.0)
+
+DEPENDENCIES:
+  - Alamofire
+  - AlamofireObjectMapper
+  - CheckoutKit (~> 3.0.6)
+  - Cosmos
+  - Crashlytics
+  - DropDown (= 2.3.4)
+  - Fabric
+  - FBSDKCoreKit
+  - FBSDKLoginKit
+  - FBSDKMarketingKit
+  - FBSDKShareKit
+  - Firebase/Core
+  - Firebase/Messaging
+  - GoogleMaps
+  - GooglePlacePicker
+  - GooglePlaces
+  - GoogleSignIn
+  - ImageSlideshow/Alamofire
+  - IQKeyboardManagerSwift
+  - Kingfisher
+  - MIBadgeButton-Swift (from `https://github.com/mustafaibrahim989/MIBadgeButton-Swift.git`, branch `master`)
+  - ObjectMapper
+  - OneSignal (< 3.0, >= 2.6.2)
+  - SVProgressHUD
+  - SwiftKVC
+
+EXTERNAL SOURCES:
+  MIBadgeButton-Swift:
+    :branch: master
+    :git: https://github.com/mustafaibrahim989/MIBadgeButton-Swift.git
+
+CHECKOUT OPTIONS:
+  MIBadgeButton-Swift:
+    :commit: 3c2638d2e6e46ec2e6dd978d8ada8863df3df5e6
+    :git: https://github.com/mustafaibrahim989/MIBadgeButton-Swift.git
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  AlamofireImage: 63cfe3baf1370be6c498149687cf6db3e3b00999
+  AlamofireObjectMapper: 92b6ce2423a9d159e686f6a1d514a009bf903ddc
+  Bolts: ac6567323eac61e203f6a9763667d0f711be34c8
+  CheckoutKit: c7539f8fde462c69760d1abe0ad4cb562eb438cd
+  Cosmos: 7dfaa3f52584ca5f94ab74b5c2e264019cc9f7f5
+  Crashlytics: 07fb167b1694128c1c9a5a5cc319b0e9c3ca0933
+  DropDown: f225ff0fd09dde064d17aa03db7e4d4e4ff40b6b
+  Fabric: f988e33c97f08930a413e08123064d2e5f68d655
+  FBSDKCoreKit: ae214474b25033399c131dc81d258e412582a2ba
+  FBSDKLoginKit: 7a1e411d46acc8834588eca437daf34de42e1d52
+  FBSDKMarketingKit: e609f39d74ab273cf52e2f8b7e8829ed412b2827
+  FBSDKShareKit: 0e45916f4150da485928ae2a17ca021950b194f5
+  Firebase: 2f5235e62f141cb86181c3af0dfe4509706351ac
+  FirebaseAnalytics: fd72a26bf8dac84cefba2f0864366f718555a5b0
+  FirebaseAnalyticsInterop: efbe45c8385ec626e29f9525e5ebd38520dfb6c1
+  FirebaseCore: f1a9a8be1aee4bf71a2fc0f4096df6788bdfda61
+  FirebaseInstanceID: a122b0c258720cf250551bb2bedf48c699f80d90
+  FirebaseMessaging: 4235f949ce1c4e827aeb19705ba5c53f9b85aa10
+  GoogleAppMeasurement: 1624046ab1bcc5e170061a56ef5679000b079c8e
+  GoogleMaps: 941cd655e009b4d8e42df19a3d749bc3fccec973
+  GooglePlacePicker: 00a74c32477edc8e01a99cf49a6bd4e64767a2b1
+  GooglePlaces: c086e0055dc5f0177d7c9d65fc77a1734f9a4825
+  GoogleSignIn: 7ff245e1a7b26d379099d3243a562f5747e23d39
+  GoogleToolboxForMac: ff31605b7d66400dcec09bed5861689aebadda4d
+  GoogleUtilities: 6481e6318c5fcabaaa8513ef8120f329055d7c10
+  GTMSessionFetcher: 32aeca0aa144acea523e1c8e053089dec2cb98ca
+  ImageSlideshow: f8eec5e37a980f60923b585ff23b0e140fd24018
+  IQKeyboardManagerSwift: b07ccf9d8cafe993dcd6cb794eb4ba34611a0c4e
+  Kingfisher: c148cd7b47ebde9989f6bc7c27dcaa79d81279a0
+  MIBadgeButton-Swift: 9e57309b00b168d75ca8fecb45bc75124a8ffddf
+  nanopb: 2901f78ea1b7b4015c860c2fdd1ea2fee1a18d48
+  ObjectMapper: 0d4402610f4e468903ae64629eec4784531e5c51
+  OneSignal: ccdeb961882f8668305e5b694e2cb7cb325fc907
+  Protobuf: 7a877b7f3e5964e3fce995e2eb323dbc6831bb5a
+  Reflection: 6c21d35bf5ac4a88f05187d1ca9c964c54e238c4
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  SwiftKVC: eb711a40be96d73949487f3b81c0e9268d015aee
+
+PODFILE CHECKSUM: 09a06671291d3ebd9b8ec5d80bd0b2c155bcd7c7
+
+COCOAPODS: 1.4.0

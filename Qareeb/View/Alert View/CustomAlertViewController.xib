@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CustomAlertViewController" customModule="PatientApp" customModuleProvider="target">
+            <connections>
+                <outlet property="containerView" destination="PgQ-Gs-nzZ" id="jMh-8O-mVZ"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="350" height="260"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lfp-5p-RaN">
+                    <rect key="frame" x="16" y="6" width="53" height="30"/>
+                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                    <state key="normal" title="Cancel"/>
+                    <connections>
+                        <action selector="btnCancel:" destination="-1" eventType="touchUpInside" id="TcD-xf-QCy"/>
+                    </connections>
+                </button>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dKz-NA-p5B">
+                    <rect key="frame" x="291" y="6" width="43" height="30"/>
+                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="17"/>
+                    <state key="normal" title="Done"/>
+                    <connections>
+                        <action selector="btnDone:" destination="-1" eventType="touchUpInside" id="CaP-lX-VaC"/>
+                    </connections>
+                </button>
+                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PgQ-Gs-nzZ">
+                    <rect key="frame" x="0.0" y="44" width="350" height="216"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="height" constant="216" id="amg-Zp-Ng6"/>
+                    </constraints>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstAttribute="trailing" secondItem="PgQ-Gs-nzZ" secondAttribute="trailing" id="Dow-iH-7j6"/>
+                <constraint firstItem="dKz-NA-p5B" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="6" id="Hx5-YM-OSl"/>
+                <constraint firstItem="PgQ-Gs-nzZ" firstAttribute="top" secondItem="lfp-5p-RaN" secondAttribute="bottom" constant="8" id="LKt-d2-qLb"/>
+                <constraint firstItem="PgQ-Gs-nzZ" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="T4r-bm-1GE"/>
+                <constraint firstAttribute="bottom" secondItem="PgQ-Gs-nzZ" secondAttribute="bottom" id="WmK-hT-ey1"/>
+                <constraint firstItem="PgQ-Gs-nzZ" firstAttribute="top" secondItem="dKz-NA-p5B" secondAttribute="bottom" constant="8" id="bOM-MP-UBh"/>
+                <constraint firstItem="lfp-5p-RaN" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" constant="6" id="bhg-YI-9bU"/>
+                <constraint firstAttribute="trailing" secondItem="dKz-NA-p5B" secondAttribute="trailing" constant="16" id="cfC-Wq-mzp"/>
+                <constraint firstItem="lfp-5p-RaN" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="fBM-3i-9uI"/>
+            </constraints>
+            <nil key="simulatedStatusBarMetrics"/>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="202" y="-218"/>
+        </view>
+    </objects>
+</document>

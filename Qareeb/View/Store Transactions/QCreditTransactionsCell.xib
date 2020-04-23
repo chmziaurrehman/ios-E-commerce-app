@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Bold.otf">
+            <string>Montserrat-Bold</string>
+        </array>
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="QCreditTransactionsCell" id="gTV-IL-0wX" customClass="QCreditTransactionsCell" customModule="Qareeb" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="415" height="81"/>
+            <autoresizingMask key="autoresizingMask"/>
+            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                <rect key="frame" x="0.0" y="0.0" width="415" height="81"/>
+                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="s98-zK-l5f" customClass="UIViewX" customModule="Qareeb" customModuleProvider="target">
+                        <rect key="frame" x="0.0" y="0.0" width="415" height="81"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Description" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vti-EX-fN7">
+                                <rect key="frame" x="15" y="51.5" width="69" height="14.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
+                                <color key="textColor" name="blue_grey"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="9.95 SR " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ni3-eQ-fBZ">
+                                <rect key="frame" x="309.5" y="15" width="90.5" height="51"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Bold" family="Montserrat" pointSize="23"/>
+                                <color key="textColor" name="blueberry"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date Added" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="egc-KA-PBi">
+                                <rect key="frame" x="157" y="15" width="71.5" height="14.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
+                                <color key="textColor" name="lightBlueGrey"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date Added" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tZZ-gC-PCu">
+                                <rect key="frame" x="157" y="51.5" width="71.5" height="14.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
+                                <color key="textColor" name="lightBlueGrey"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Date Added" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="3sY-cJ-1hu">
+                                <rect key="frame" x="15" y="15" width="71.5" height="14.5"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="12"/>
+                                <color key="textColor" name="blue_grey"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="3sY-cJ-1hu" firstAttribute="leading" secondItem="s98-zK-l5f" secondAttribute="leading" constant="15" id="1lP-Ku-2ZS"/>
+                            <constraint firstItem="3sY-cJ-1hu" firstAttribute="top" secondItem="s98-zK-l5f" secondAttribute="top" constant="15" id="EjP-Og-ybS"/>
+                            <constraint firstAttribute="bottom" secondItem="ni3-eQ-fBZ" secondAttribute="bottom" constant="15" id="IMv-xC-v0N"/>
+                            <constraint firstItem="ni3-eQ-fBZ" firstAttribute="top" secondItem="s98-zK-l5f" secondAttribute="top" constant="15" id="Kjy-JR-YZQ"/>
+                            <constraint firstItem="egc-KA-PBi" firstAttribute="centerX" secondItem="s98-zK-l5f" secondAttribute="centerX" constant="-15" id="Xda-Eq-64i"/>
+                            <constraint firstAttribute="bottom" secondItem="tZZ-gC-PCu" secondAttribute="bottom" constant="15" id="kUs-nw-FXd"/>
+                            <constraint firstItem="Vti-EX-fN7" firstAttribute="leading" secondItem="s98-zK-l5f" secondAttribute="leading" constant="15" id="paX-8F-h6Z"/>
+                            <constraint firstItem="egc-KA-PBi" firstAttribute="top" secondItem="s98-zK-l5f" secondAttribute="top" constant="15" id="piM-tO-GyY"/>
+                            <constraint firstAttribute="bottom" secondItem="Vti-EX-fN7" secondAttribute="bottom" constant="15" id="pr9-9n-qfX"/>
+                            <constraint firstItem="tZZ-gC-PCu" firstAttribute="centerX" secondItem="egc-KA-PBi" secondAttribute="centerX" id="tQa-up-1JR"/>
+                            <constraint firstAttribute="trailing" secondItem="ni3-eQ-fBZ" secondAttribute="trailing" constant="15" id="vst-iY-bf0"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" red="0.2627450980392157" green="0.2627450980392157" blue="0.2627450980392157" alpha="0.098280164930555552" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                                <real key="value" value="7"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetY">
+                                <real key="value" value="0.0"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+            </view>
+            <constraints>
+                <constraint firstItem="s98-zK-l5f" firstAttribute="leading" secondItem="gTV-IL-0wX" secondAttribute="leading" id="Bfr-dx-TFh"/>
+                <constraint firstAttribute="trailing" secondItem="s98-zK-l5f" secondAttribute="trailing" id="lqn-pw-wVx"/>
+                <constraint firstAttribute="bottom" secondItem="s98-zK-l5f" secondAttribute="bottom" id="usG-j5-KNG"/>
+                <constraint firstItem="s98-zK-l5f" firstAttribute="top" secondItem="gTV-IL-0wX" secondAttribute="top" id="wYc-JH-6V9"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="ZTg-uK-7eu"/>
+            <size key="customSize" width="415" height="81"/>
+            <connections>
+                <outlet property="dateAddedLabel" destination="3sY-cJ-1hu" id="HG6-dV-0ui"/>
+                <outlet property="descLabel" destination="Vti-EX-fN7" id="etJ-Ur-dh0"/>
+                <outlet property="lblCredit" destination="ni3-eQ-fBZ" id="GEH-He-pQM"/>
+                <outlet property="lblDate" destination="egc-KA-PBi" id="6xJ-Bb-PCL"/>
+                <outlet property="lblDescription" destination="tZZ-gC-PCu" id="KU2-FZ-f9R"/>
+            </connections>
+            <point key="canvasLocation" x="-12" y="167.76611694152925"/>
+        </collectionViewCell>
+    </objects>
+    <resources>
+        <namedColor name="blue_grey">
+            <color red="0.36470588235294116" green="0.46274509803921571" blue="0.52549019607843139" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="blueberry">
+            <color red="0.41176470588235292" green="0.28235294117647058" blue="0.61568627450980395" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <namedColor name="lightBlueGrey">
+            <color red="0.792156862745098" green="0.81960784313725488" blue="0.83529411764705885" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

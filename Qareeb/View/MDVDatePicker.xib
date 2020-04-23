@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="Montserrat-Regular.otf">
+            <string>Montserrat-Regular</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="MDVDatePicker" customModule="Qareeb" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <visualEffectView opaque="NO" alpha="0.25" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="kNT-jm-KnL">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="g0d-O5-mVi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="nbx-fW-OlS">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" insetsLayoutMarginsFromSafeArea="NO" id="yow-IZ-1VL">
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="647"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                </view>
+                                <vibrancyEffect>
+                                    <blurEffect style="light"/>
+                                </vibrancyEffect>
+                            </visualEffectView>
+                        </subviews>
+                    </view>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <blurEffect style="extraLight"/>
+                </visualEffectView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ke5-mW-SIN">
+                    <rect key="frame" x="0.0" y="20" width="375" height="647"/>
+                    <color key="backgroundColor" red="0.36470588235294116" green="0.46274509803921571" blue="0.52549019607843139" alpha="0.87311469184027779" colorSpace="custom" customColorSpace="sRGB"/>
+                    <connections>
+                        <action selector="btnDismiss:" destination="iN0-l3-epB" eventType="touchUpInside" id="PnB-wg-GGG"/>
+                    </connections>
+                </button>
+                <view clipsSubviews="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="4cl-xc-83j" customClass="UIViewX" customModule="Qareeb" customModuleProvider="target">
+                    <rect key="frame" x="20" y="200" width="335" height="267"/>
+                    <subviews>
+                        <datePicker contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" datePickerMode="dateAndTime" minuteInterval="1" translatesAutoresizingMaskIntoConstraints="NO" id="EWM-fw-zBg">
+                            <rect key="frame" x="0.0" y="20" width="335" height="247"/>
+                            <date key="date" timeIntervalSinceReferenceDate="544519147.39597094">
+                                <!--2018-04-04 07:19:07 +0000-->
+                            </date>
+                        </datePicker>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="IvI-Di-ads">
+                            <rect key="frame" x="0.0" y="0.0" width="335" height="40"/>
+                            <subviews>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qPR-jY-G9f">
+                                    <rect key="frame" x="23" y="0.0" width="289" height="40"/>
+                                    <fontDescription key="fontDescription" name="Montserrat-Regular" family="Montserrat" pointSize="17"/>
+                                    <state key="normal" title="Done">
+                                        <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </state>
+                                    <connections>
+                                        <action selector="btnDone:" destination="iN0-l3-epB" eventType="touchUpInside" id="mnu-As-hY4"/>
+                                    </connections>
+                                </button>
+                            </subviews>
+                            <color key="backgroundColor" name="boringGreen"/>
+                            <constraints>
+                                <constraint firstItem="qPR-jY-G9f" firstAttribute="top" secondItem="IvI-Di-ads" secondAttribute="top" id="ETI-65-al6"/>
+                                <constraint firstAttribute="bottom" secondItem="qPR-jY-G9f" secondAttribute="bottom" id="N9t-oD-Du2"/>
+                                <constraint firstItem="qPR-jY-G9f" firstAttribute="leading" secondItem="IvI-Di-ads" secondAttribute="leading" constant="23" id="nxw-MU-JoA"/>
+                                <constraint firstAttribute="height" constant="40" id="qfF-k3-2Oe"/>
+                                <constraint firstAttribute="trailing" secondItem="qPR-jY-G9f" secondAttribute="trailing" constant="23" id="sBE-Ry-diU"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    <constraints>
+                        <constraint firstAttribute="bottom" secondItem="EWM-fw-zBg" secondAttribute="bottom" id="0is-vP-pco"/>
+                        <constraint firstAttribute="trailing" secondItem="IvI-Di-ads" secondAttribute="trailing" id="9WY-yP-1Ce"/>
+                        <constraint firstItem="EWM-fw-zBg" firstAttribute="leading" secondItem="4cl-xc-83j" secondAttribute="leading" id="JmS-3N-q6L"/>
+                        <constraint firstAttribute="trailing" secondItem="EWM-fw-zBg" secondAttribute="trailing" id="htc-3G-8z6"/>
+                        <constraint firstItem="IvI-Di-ads" firstAttribute="leading" secondItem="4cl-xc-83j" secondAttribute="leading" id="i7T-6v-n4z"/>
+                        <constraint firstItem="IvI-Di-ads" firstAttribute="top" secondItem="4cl-xc-83j" secondAttribute="top" id="ufv-Gl-FhJ"/>
+                        <constraint firstItem="EWM-fw-zBg" firstAttribute="top" secondItem="IvI-Di-ads" secondAttribute="bottom" constant="-20" id="yzh-9w-gSg"/>
+                    </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                            <real key="value" value="1"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                            <color key="value" red="0.0" green="0.46274509800000002" blue="0.71372549019999998" alpha="0.044516153381642512" colorSpace="calibratedRGB"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowOffsetY">
+                            <real key="value" value="-14"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="shadowRadius">
+                            <real key="value" value="40"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="number" keyPath="cRadius">
+                            <real key="value" value="10"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
+                </view>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <constraints>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="4cl-xc-83j" secondAttribute="trailing" constant="20" id="3qX-zL-Spd"/>
+                <constraint firstItem="Ke5-mW-SIN" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="Apq-jg-HoZ"/>
+                <constraint firstItem="4cl-xc-83j" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" multiplier="0.4" id="JhS-qR-358"/>
+                <constraint firstItem="Ke5-mW-SIN" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="RH8-Hh-wCZ"/>
+                <constraint firstItem="4cl-xc-83j" firstAttribute="centerY" secondItem="iN0-l3-epB" secondAttribute="centerY" id="XsW-QO-DHG"/>
+                <constraint firstItem="kNT-jm-KnL" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="Ym0-LZ-fIP"/>
+                <constraint firstItem="4cl-xc-83j" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="20" id="foW-a6-9Pi"/>
+                <constraint firstItem="kNT-jm-KnL" firstAttribute="bottom" secondItem="vUN-kp-3ea" secondAttribute="bottom" id="hIl-bp-Sbz"/>
+                <constraint firstItem="kNT-jm-KnL" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="jYa-sD-dYF"/>
+                <constraint firstItem="kNT-jm-KnL" firstAttribute="trailing" secondItem="vUN-kp-3ea" secondAttribute="trailing" id="ner-Uy-ne3"/>
+                <constraint firstItem="Ke5-mW-SIN" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="quw-Xg-u0R"/>
+                <constraint firstItem="Ke5-mW-SIN" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="yuI-1D-Its"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="datePicker" destination="EWM-fw-zBg" id="eAe-3q-VDt"/>
+            </connections>
+            <point key="canvasLocation" x="29.600000000000001" y="40.929535232383813"/>
+        </view>
+    </objects>
+    <resources>
+        <namedColor name="boringGreen">
+            <color red="0.44313725490196076" green="0.69803921568627447" blue="0.38823529411764707" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

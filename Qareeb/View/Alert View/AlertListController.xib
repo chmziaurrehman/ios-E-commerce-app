@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <customFonts key="customFonts">
+        <array key="OpenSans-Regular.ttf">
+            <string>OpenSans</string>
+        </array>
+    </customFonts>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="AlertListController" customModule="PatientApp" customModuleProvider="target">
+            <connections>
+                <outlet property="lblNoResultFound" destination="Snc-oe-lw6" id="pHZ-N7-mRT"/>
+                <outlet property="tableview" destination="WGZ-Hy-hk9" id="ugO-Qg-VAs"/>
+                <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+            <rect key="frame" x="0.0" y="0.0" width="375" height="350"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="No Result(s) Found" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Snc-oe-lw6">
+                    <rect key="frame" x="16" y="161" width="343" height="29"/>
+                    <fontDescription key="fontDescription" name="OpenSans" family="Open Sans" pointSize="21"/>
+                    <color key="textColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                    <nil key="highlightedColor"/>
+                </label>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="WGZ-Hy-hk9">
+                    <rect key="frame" x="0.0" y="0.0" width="375" height="350"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="aMI-nq-AMj"/>
+                        <outlet property="delegate" destination="-1" id="aCz-H1-95j"/>
+                    </connections>
+                </tableView>
+            </subviews>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="WGZ-Hy-hk9" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="5hW-hP-FBW"/>
+                <constraint firstItem="Snc-oe-lw6" firstAttribute="centerY" secondItem="i5M-Pr-FkT" secondAttribute="centerY" id="66P-pR-bxb"/>
+                <constraint firstAttribute="bottom" secondItem="WGZ-Hy-hk9" secondAttribute="bottom" id="9UM-Zt-iIa"/>
+                <constraint firstItem="WGZ-Hy-hk9" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="HCi-VD-42f"/>
+                <constraint firstItem="Snc-oe-lw6" firstAttribute="centerX" secondItem="i5M-Pr-FkT" secondAttribute="centerX" id="PmD-Ta-VYS"/>
+                <constraint firstItem="Snc-oe-lw6" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" constant="16" id="SUp-vb-rfc"/>
+                <constraint firstAttribute="trailing" secondItem="WGZ-Hy-hk9" secondAttribute="trailing" id="kSV-hh-tn4"/>
+                <constraint firstAttribute="trailing" secondItem="Snc-oe-lw6" secondAttribute="trailing" constant="16" id="tbC-8V-OCL"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="-96.5" y="-141"/>
+        </view>
+    </objects>
+</document>

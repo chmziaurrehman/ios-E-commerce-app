@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB" customClass="QDescriptionView" customModule="Qareeb" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <wkWebView contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Rjj-09-EQ2">
+                    <rect key="frame" x="16" y="74" width="382" height="758"/>
+                    <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    <wkWebViewConfiguration key="configuration">
+                        <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
+                        <wkPreferences key="preferences"/>
+                    </wkWebViewConfiguration>
+                </wkWebView>
+                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rel-mz-Tyh">
+                    <rect key="frame" x="358" y="44" width="40" height="28"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="40" id="QWs-z5-uOM"/>
+                    </constraints>
+                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                    <color key="tintColor" name="text_color"/>
+                    <state key="normal" image="close">
+                        <color key="titleColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </state>
+                    <connections>
+                        <action selector="btnClose:" destination="iN0-l3-epB" eventType="touchUpInside" id="Sy7-e1-YM3"/>
+                    </connections>
+                </button>
+            </subviews>
+            <color key="backgroundColor" red="0.41176470588235292" green="0.28235294117647058" blue="0.61568627450980395" alpha="0.79493543836805558" colorSpace="custom" customColorSpace="sRGB"/>
+            <constraints>
+                <constraint firstItem="rel-mz-Tyh" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" id="1rQ-zi-LzV"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="rel-mz-Tyh" secondAttribute="trailing" constant="16" id="Rgn-j0-V8B"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="Rjj-09-EQ2" secondAttribute="trailing" constant="16" id="hHe-uY-JM2"/>
+                <constraint firstItem="Rjj-09-EQ2" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" constant="16" id="sBm-vk-sIG"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="Rjj-09-EQ2" secondAttribute="bottom" constant="30" id="tDa-sl-jgi"/>
+                <constraint firstItem="Rjj-09-EQ2" firstAttribute="top" secondItem="vUN-kp-3ea" secondAttribute="top" constant="30" id="yn1-is-BXE"/>
+            </constraints>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <connections>
+                <outlet property="webView" destination="Rjj-09-EQ2" id="UjI-g6-QPP"/>
+            </connections>
+            <point key="canvasLocation" x="137.68115942028987" y="152.67857142857142"/>
+        </view>
+    </objects>
+    <resources>
+        <image name="close" width="14" height="14"/>
+        <namedColor name="text_color">
+            <color red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+    </resources>
+</document>

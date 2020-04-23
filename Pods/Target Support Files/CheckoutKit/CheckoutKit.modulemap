@@ -1,0 +1,6 @@
+framework module CheckoutKit {
+  umbrella header "CheckoutKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
